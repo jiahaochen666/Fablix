@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="postpage.css">
+    <title>Login to Fablix</title>
+</head>
+<body>
+<div id="login">Login to Fablix</div>
+
+<form id="login_form" method="post" action="form-recaptcha">
+    <div class="row">
+    <input name="email" placeholder="Enter Email" type="text">
+    </div>
+    <div class="row">
+    <input name="password" placeholder="Enter Password" type="password">
+    </div>
+    <input type="submit" value="Login">
+
+
+<div id="login_error_message"></div>
+    <div class="g-recaptcha" data-sitekey="6LcbFvQUAAAAALESoSBHRMa0cV17rBHFE8GxMau_"></div>
+</form>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="./login.js"></script>
+
+</body>
+</html>

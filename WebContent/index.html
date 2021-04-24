@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="table.css">
+    <title>Movie List</title>
+</head>
+<body>
+<div id="searchagain"><a href="main.html">Search Again</a></div>
+<div id="shoppingbox">
+    <div class="back"><a href="cart.html">Go to shopping cart<img src="shopping.png"></a></div>
+    <div class="back"><a href="payment.html">Check out<img src="shopping.png"></a></div>
+</div>
+<h1 id="header">Movie List</h1>
+<div>
+    <label>choose a number of movies you want to show</label>
+    <select id="frontsize" onchange="location = this.value;"></select>
+</div>
+<table id="movie">
+    <thead>
+    <th><select id="titlesort" onchange="location = this.value;">
+        <option disabled selected value="">Sort title first</option>
+    </select></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th><select id="ratingsort" onchange="location = this.value;">
+        <option disabled selected value="">Sort rating first</option>
+    </select></th>
+    </thead>
+    <tbody>
+    <tr id="title">
+        <th>title</th>
+        <th>year</th>
+        <th>director</th>
+        <th>genres</th>
+        <th>stars</th>
+        <th>rating</th>
+    </tr>
+    </tbody>
+    <tbody id=movielist_table_body></tbody>
+</table>
+<br>
+<div id="pre"></div>
+<div id="page"></div>
+<div id="next"></div>
+<!--The following 3 lines of codes are copied from cs122b-spring20-project1-api-example-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="index.js"></script>
+
+</body>
+
+
+</html>

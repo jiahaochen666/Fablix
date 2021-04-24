@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="postpage.css">
+    <title>Search and Browse</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
+
+    <div id="back"><a href="cart.html">Go to shopping cart</a></div>
+</head>
+<body>
+<label class="searchHeader">Search</label>
+<form ACTION="#" id="search" METHOD="post">
+    <br>
+    <label>
+        <input class="autocomplete-searchbox form-control" id="autoTitle" name="title" placeholder="Enter title"
+               type="text">
+        <input name="year"  type="text" placeholder="Enter year">
+        <input name="director"  type="text" placeholder="Enter director">
+        <input name="actor"  type="text" placeholder="Enter star">
+    </label>
+    <input type="submit" VALUE="search">
+</form>
+<label class="searchHeader">Browse by Genres</label>
+<br>
+<div id="genre_list"></div>
+<br>
+<label class="searchHeader">Browse by title</label>
+<br>
+<div id="start"></div>
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>

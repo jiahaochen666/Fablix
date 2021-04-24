@@ -1,0 +1,117 @@
+
+body{
+    background-image: url("background.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse:separate;
+    height: auto;
+}
+
+#header{
+    font-size: 100px;
+    color:chocolate;
+    font-style: italic;
+    text-align: center;
+}
+
+#title{
+    font-size: 40px;
+    background-color: coral;
+    color: lightyellow;
+    font-style: italic;
+}
+
+
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightgrey;
+}
+tbody th{
+    border-radius: 10px;
+}
+
+#movielist_table_body th:hover{
+    background-color: darkgrey;
+}
+
+#searchagain a{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: pink;
+    border-radius: 5px;
+    float: left;
+}
+
+#searchagain a:hover{
+    background-color: coral;
+}
+
+#page a, #pre a, #next a, #back a, .back a{
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+#page a:hover, #pre a:hover, #next a:hover, #back a:hover, .back a:hover{
+    background-color: chocolate;
+}
+
+thead select{
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+#shoppingbox{
+    float: right;
+}
+
+#shoppingbox img{
+    height: 20px;
+    width: 20px;
+}
+

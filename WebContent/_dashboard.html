@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link href="postpage.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form ACTION="#" id="addstar" METHOD="post">
+    <br>
+    <label>
+        <input name="starName" type="text" placeholder="Enter star name" required>
+        <input name="birthYear" type="text" placeholder="Enter birth year(optional)">
+    </label>
+    <input type="submit" VALUE="add">
+    <div id="add_message"></div>
+</form>
+
+<form ACTION="#" id="addmovie" METHOD="post">
+    <br>
+    <label>
+        <input name="movie_title" type="text" placeholder="Enter title" required>
+        <input name="movie_year" type="text" placeholder="Enter release year" required>
+        <input name="movie_director" type="text" placeholder="Enter director name" required>
+        <input name="movie_star" type="text" placeholder="Enter a star name" required>
+        <input name="movie_genre" type="text" placeholder="Enter a genre name" required>
+    </label>
+    <input type="submit" VALUE="add">
+    <div id="addmovie_message"></div>
+</form>
+
+<div id="database_table"></div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./dashboard.js"></script>
+</html>

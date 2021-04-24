@@ -1,0 +1,155 @@
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+
+body {
+    background-image: url("background.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.searchHeader {
+    font-size: 100px;
+    color: cornflowerblue;
+}
+
+input[type=text], input[type=password]{
+    width: 400px;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 5px solid #8842d5;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: coral;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#login{
+    margin-top: 200px;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+#genre_list{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+#start{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+}
+
+b{
+    margin: 10px;
+}
+
+a{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: coral;
+}
+
+a:visited, a:active{
+    background-color: burlywood;
+}
+
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse:separate;
+    height: auto;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tbody th, thead th {
+    border-radius: 10px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autocomplete-searchbox {
+    height: 50px;
+    width: 600px;
+}
