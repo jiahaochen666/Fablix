@@ -1,7 +1,7 @@
 # cs122b-spring20-team-83
 cs122b-spring20-team-83 created by GitHub Classroom
 
-Team members: Jiahao Chen(jiahaoc7@uci.edu), Zhanchun Wang(zhanchuw@uci.edu)
+Team members: Jiahao Chen, Zhanchun Wang
 
 All the code are written by Jiahao and Zhanchun, and we do not plagrize anyone.
 
