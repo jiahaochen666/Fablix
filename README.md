@@ -1,5 +1,4 @@
-# cs122b-spring20-team-83
-cs122b-spring20-team-83 created by GitHub Classroom
+# Fablix Movie Website
 
 Team members: Jiahao Chen, Zhanchun Wang
 
